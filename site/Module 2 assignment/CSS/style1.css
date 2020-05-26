@@ -1,0 +1,76 @@
+h1{
+	text-align: center;
+}
+body{
+	margin-left: 50px;
+	background-color: #33FF90;
+}
+*{
+	box-sizing: border-box;
+}
+.food{
+	background:blue;
+	padding: 10px;
+	border:1px solid black;
+	font-size: 20px;
+	margin:20px;
+}
+.basic{
+	position: relative;
+	left:70%;
+	text-align: center;
+	background-color: red;
+	border: 1px solid black;
+	margin-top:-10px;
+}
+.beef{
+	background-color: yellow;
+}
+.sushi{
+	background-color: orange;
+}
+@media(min-width: 992px)
+{
+	.col-lg-3
+	{
+		float:left;
+		width: 29%;
+	}
+	.basic{
+		width: 33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.col-md-5, .col-md-11
+	{
+		float: left;
+		margin-bottom: 20px;
+	}
+	.basic{
+		width:33%;
+	}
+	.sushi{
+		left:80%;
+		width:21%;
+	}
+	.col-md-5{
+		width:41.66%;	
+	}
+	.col-md-11
+	{
+		width:88%;
+	}
+}
+@media(max-width:767px)
+{
+	.col-sd-6
+	{
+		float: left;
+		width:50%;
+		margin-bottom: 20px;
+	}
+	.basic{
+		width:33%;
+	}
+}
